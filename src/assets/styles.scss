@@ -1,0 +1,26 @@
+$malina: #f7376e;
+$bialas: #ffffff;
+$fonciaki: sans-serif;
+$waski: 76rem;
+$gorny: 4rem;
+
+body {
+  width: $waski;
+  margin: auto;
+  margin-top: $gorny;
+  background-color: $malina;
+  color: $bialas;
+  font-family: $fonciaki;
+  a {
+    color: $bialas;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.my-class {
+  color: $bialas;
+}
+
+// $primary-color: #333;
